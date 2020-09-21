@@ -1,0 +1,103 @@
+body{
+    background-color: #cb021c;
+    transition: background 0.4s ease-in-out;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.humburger{
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    font-size: 2rem;
+
+}
+
+.phone{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+}
+.logo{
+    text-align: center;
+    color: white;
+    font-size: 1.7rem;
+    margin: 2rem 0;
+}
+.logo i{
+    font-size: 5rem;
+}
+.logo h1{
+    margin: 0;
+    font-weight: normal;
+}
+
+.logo p{
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+.carousel{
+position: absolute;
+left: 0;
+top: 0;
+display: flex;
+transform: translateX(0);
+transition: transform 0.4s ease-in-out;
+}
+
+.carousel-container{
+overflow: hidden;
+position: relative;
+height: 60vh;
+width:100vw;
+margin-top: 4rem;
+
+}
+
+.slide{
+    
+width: 100vw;
+text-align: center;
+
+}
+
+.slide img{
+    object-fit: cover;
+    width:300px ;
+    height:300px;
+}
+
+.slide h1{
+    color: white;
+    margin-top: -4rem;
+    font-size: 5rem;
+}
+
+.slide a{
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+}
+
+.arrow{
+background-color: transparent;
+border: 0;
+cursor: pointer;
+position: absolute;
+top:30%;
+font-size: 3rem;
+color: rgb(112, 131, 77);
+opacity: 0.5;
+transform: translateY(-50%);
+}
+
+.left-arrow{
+left: 2rem;
+
+}
+
+.right-arrow{
+right: 2rem;
+}
